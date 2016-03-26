@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Worktaster | Welcome</title>
+<link rel="shortcut icon" href="img/favicon.ico"/>
+
+<!-- Meta for mobile responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+<!-- Rest Css -->
+<link href="script/html5reset-1.6.1.css" rel="stylesheet" type="text/css">
+
+<!--Normalize Css-->
+<link href="script/normalize.css" rel="stylesheet" type="text/css">
+
+<!--Bootstrap Css-->
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Mobile Menu Converter -->
+<link href="script/mobileMenuConverter.css" rel="stylesheet" type="text/css">
+
+<!-- This will dynamically create Mobile Menu with jQuery.  -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="script/mobileMenuConverter.js" type="text/jscript"></script>
+
+<!-- Loading Drunken Parrot UI -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/demo.css" rel="stylesheet">
+
+<!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+<![endif]-->
+    
+<!--My Style Css-->
+<link href="script/myStyle.css" rel="stylesheet" type="text/css">
+
+<!--Font Awesome -->
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+
+<!--Fonts  -->
+<link href="font/stylesheet.css" rel="stylesheet" type="text/css">
+
+<!--Media Query Css-->
+<link href="script/mediaQuery.css" rel="stylesheet" type="text/css">
+
+<style>
+#qcont{}
+#qcont input{border:solid lightgray 1px; color:gray;}
+#qcont input placeholder{color:#000!important;}
+#qcont textarea{border:solid lightgray 1px; color:gray; width:100%;}
+</style>
+
+</head>
+<body>
+
+  <!-- Modal Video -->
+  <div class="modal fade" id="videoPop" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><i class="fa fa-send"></i> Title of the video will be here.. </h4>
+        </div>
+        <div class="modal-body">
+          <!-- Sign-up-Form -->
+				<iframe width="100%" height="315" src="https://www.youtube.com/embed/KK9bwTlAvgo" frameborder="0" allowfullscreen></iframe>
+			<!-- End Sign-up Form -->
+        </div>
+        <div class="modal-footer">
+          &nbsp; 
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Video -->
+  
+<!-- Modal Contact Form-->
+  <div class="modal fade" id="asdf" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><i class="fa fa-send"></i> Contact Form </h4>
+        </div>
+        <div class="modal-body" style="height:200px;">
+          <!-- Sign-up-Form -->
+						<form action="#" id="qcont" class="" novalidate="novalidate">
+							<div class="row">
+							  <div class="col-md-12">
+									<label class="input">Your Name</label>
+									<input type="text" name="username" placeholder="Your Name" class="form-control">
+                                </div>
+
+                                <div class="col-md-12">
+									<label class="input">Email Address</label>
+									<input type="email" name="email" placeholder="Email address" class="form-control">
+                                </div>
+								
+								<div class="col-md-12">
+									<label class="input">Mobile Number</label>
+									<input type="email" name="mob" placeholder="Mobile number" class="form-control">
+								</div>
+								
+                                <div class="col-md-12">
+									<label class="input">Your Message</label>
+									<textarea rows="2" cols="50" placeholder="Enter your message" class="form-control"></textarea>
+                                </div>
+								
+
+								<div class="col-md-12">
+									<label class="input"></label>
+									<button type="submit" class="btn-u form-control btn-warning">Submit</button>
+								</div>
+														</div>
+                        </form>
+			<!-- End Sign-up Form -->
+        </div>
+        <div class="modal-footer">
+          &nbsp;
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- Modal Contact Form-->
+  
+<div class="container">
+
+<div class="row bgGrdOne">
+  <div class="col-xs-12 col-sm-12 col-md-3"><a href="index.html"><img src="img/logo.png" alt="Logo" class="logo"></a></div>
+  <div class="col-md-6"><!--col-sm-12 col-xs-12  -->
+    <div id="navigationContainer">
+    	<nav>
+            <ul>
+            	<li><a href="index.html"><span class="fa fa-home h_pg_homeIcon"></span></a></li>
+            	<li><a href="schoolandcollage.html">Schools & Colleges</a></li>
+            	<li><a href="students.html">Students</a></li>
+            	<li><a href="businesses.html">Businesses</a></li>
+            	<li><a href="about.html">About us</a></li>
+            	<li><a href="newsAll.html">News</a>
+
+                </li>
+            	<li class="border-right-none"><a href="#" data-toggle="modal" data-target="#asdf">Contact us</a></li>
+            </ul>
+        </nav>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-3">
+  	<div class="header_btn_group">
+      <a href="index.php" class="menu-getStarted-btn-adj"><button type="button" class="btn btn-danger btn-embossed">GET STARTED</button></a>
+      <a href="index.php" class="menu-login-btn-adj"><button type="button" class="btn btn-orange btn-embossed">LOGIN</button></a>
+    </div>
+  </div>
+
+   
+ </div>
+
+
+
+<div class="row">
+  <h1>WORKTASTER TERMS AND CONDITIONS</h1>
+  <p>This agreement applies as between You, the User of this Website and Worktaster Limited “Worktaster”, the owner of this Website.  These terms and conditions shall govern Your use of Our Website. By using Our Website You accept these terms and conditions in full. Your agreement to comply with and be bound by these terms and conditions is deemed to occur upon Your first use of the Website. If You disagree with these terms and conditions, or any part of them, You should stop using the Website immediately. If You set up a Worktaster Account You are granted a Licence to use the Worktaster Website and the Services in consideration of Your acceptance of these terms and conditions and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licence available under these terms and conditions.</p>
+  <h1>Definitions and Interpretation</h1>
+  <p>In this Agreement the following terms shall have the following meanings:</p>
+  
+  <div class="table-responsive">
+	<table class="table table-bordered">
+
+		<tr>
+			<td>“Affiliate(s)”</td>
+			<td>Means third party(ies) who Worktaster allows to publish advertising and marketing initiatives on the Website</td>
+		</tr>
+		<tr>
+			<td>“Business Partner(s)”</td>
+			<td>means schools and colleges who use the Worktaster system: and businesses, charities and professional organisations offering work experience placements through the Worktaster system.
+</td>
+		</tr>
+		<tr>
+			<td>“Our Material”</td>
+			<td>means any text, graphics, images, audio, video, software, underlying source code, data compilations, selection and arrangements and any other form of information or content capable of being stored in a computer that appears on or forms part of this Website, owned by Worktaster;</td>
+		</tr>
+		<tr>
+			<td>“Licence”</td>
+			<td>means access to using the Worktaster system for schools and colleges and other education providers in the UK for a 12 month period</td>
+		</tr>
+		<tr>
+			<td>“Facilities”</td>
+			<td>means collectively any online facilities, tools, Services, Material or information that Worktaster makes available through the Website either now or in the future;</td>
+		</tr>
+		<tr>
+			<td>“Services”</td>
+			<td>means the Services available to You through this Website, specifically relating to the provision of work experience for young people in the UK and including but not limited to “Worktaster  Profile Builder”, “Applications”,  “References ”, “Knowledge Base”, </td>
+		</tr>
+		<tr>
+			<td>“Premises”</td>
+			<td>means Our place of business located at Worktaster Limited, Stowe House, 1688 High Street, Knowle, Solihull B93 0LY;</td>
+		</tr>
+		<tr>
+			<td>“Suppliers”</td>
+			<td>Means any third party who supplies products and/or services to Worktaster, the Website and/or its Users</td>
+		</tr>
+		<tr>
+			<td>“System”</td>
+			<td>means any online communications infrastructure that Worktaster makes available through the Website either now or in the future. This includes, but is not limited to, web-based email, message boards, live chat facilities and email links;</td>
+		</tr>
+		<tr>
+			<td>“Third Party Content”</td>
+			<td>means content owned by a third party supplier of products and/or Services on the Website;</td>
+		</tr>
+		<tr>
+			<td>“Third Party Website”</td>
+			<td>means a website owned by a Third Party which is linked to, or from, the Website or on frames within the Website;</td>
+		</tr>
+		<tr>
+			<td>“User” / “Users”</td>
+			<td>means any party that accesses the Website and is not employed by Worktaster and acting in the course of their employment;</td>
+		</tr>
+		<tr>
+			<td>“Website”</td>
+			<td>means the website that You are currently using www.worktaster.com</td>
+		</tr>
+		<tr>
+			<td>“We/Us/Our”</td>
+			<td>means Worktaster Limited, a company registered in England and Wales under Company Number 08965994</td>
+		</tr>
+		<tr>
+			<td>“Worktaster Account” </td>
+			<td>means the account that you create on the Website and includes collectively the Data, personal information and credentials used by Users to access Our Material and/or Services or any communications System on the Website;</td>
+		</tr>
+		<tr>
+			<td>“WT Profile Builder”</td>
+			<td>means an interactive Tool to enable You to build Your  profile and create or store CV’s, references and other relevant media which may be regularly updated in Your Worktaster Account</td>
+		</tr>
+		<tr>
+			<td>“You”/Your/Yourself”</td>
+			<td>means any User of the Website. </td>
+		</tr>
+		<tr>
+			<td>“Your Content”</td>
+			<td>means all works and materials (including without limitation text, graphics, images, audio material, video material, audio-visual material, scripts, software and files) that You submit to Us or our website for storage or publication on, processing by, or transmission via, Our website.</td>
+		</tr>
+		<tr>
+			<td>“Your Data”</td>
+			<td>means personal information and data You supply to us on, or in connection with, the Website as defined by the Data Protection Act 1998 as amended. </td>
+		</tr>
+	</table>
+	
+	<div class="table-responsive">
+		<table class="table table-bordered">
+		
+		</table>
+	</div>
+  </div>
+  
+</div>
+
+
+<div class="row bgcolorSix" id="footer">
+
+		<div class="col-xs-12 col-md-6">
+        <div class="ftr-bx-01">
+        <h1>More Info.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+        <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. </p>
+
+        <h2>Social Media</h2>
+		<div class="ftr-social-iconSet">
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+            <a href=""><i class="fa fa-pinterest"></i></a>
+            <a href=""><i class="fa fa-google-plus"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-dribbble"></i></a>
+        </div>
+        </div>
+        </div>        
+
+		<div class="col-xs-12 col-md-6">
+        	<div class="ftr-bx-02">
+            	<h2>Get In Touch</h2>
+                <p>If you have any questions please drop us a line below and one of our team will get back to you</p>
+                <div class="col-xs-12 col-md-10">
+                <form role="form">
+					<input type="text" class="form-control h_page_cf_input_adj" placeholder="Name">
+					<input type="text" class="form-control h_page_cf_input_adj" placeholder="Telephone">
+					<input type="text" class="form-control h_page_cf_input_adj" placeholder="Email">
+					<select id="selectbasic" name="selectbasic" class="form-control h_page_cf_input_adj">
+                        <option value="1" class="h_page_cf_input_adj" >School</option>
+                        <option value="2" class="h_page_cf_input_adj">Lorem Ipsum</option>
+                        <option value="3" class="h_page_cf_input_adj">Lorem Ipsum</option>
+                        <option value="4" class="h_page_cf_input_adj">Lorem Ipsum</option>
+                  </select>
+                  <textarea name="" cols="" rows="" class="form-control" placeholder="Message" style="background-color:transparent; color:#fff;"></textarea>
+                      <a href="#" class="ftr-send-btn-adj">
+                      <button type="button" class="btn btn-warning raised h_page_cf_send_btn">SEND</button>
+                      </a>
+                </form>
+                </div>
+            </div>
+        </div>
+
+</div>
+
+<div class="row">
+		<div style="background-color:#d65c26; padding:0px 20px;">
+		
+		<div id="copyright">
+			<p>Site by Howell Penny | Copyright 2012. Worktaster | <a href="http://vibemarketing.co.uk/" target="_blank">Powered by Vibe Marketing</a></p>
+		</div>
+		
+		<div id="tncFtr">
+			<p><a href="worktaster-tnc.html">Term &amp; condition</a></p>
+			<p><a href="worktaster-privacy.html">Privacy Policy</a></p>
+			<p><a href="worktaster-cookies.html">Cookies Policy</a></p>
+		</div>
+		
+		</div>
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,338 @@
+/*
+	Author: Avinash 
+	Blog URL:
+	https://goo.gl/LJo1xf
+	https://goo.gl/8xpqqS
+*/
+
+
+
+/* --------------------------------------------------------------------------------
+For Col-XL ----------- Portrait and Landscape-----------[ 320x767 ]
+--------------------------------------------------------------------------------*/
+@media only screen and (min-width:320px) and (max-width:767px){
+
+/*
+GLOBAL CHANGE IN ALL PAGE
+*/
+.pull-right{ float:none !important;} /* WORKS FOR ALL PAGE BANNER IMAGE TO NULL FLOAT VALUE*/
+.logo{margin:0 auto; display:block;}
+.commanPStyle{ text-align:left !important;}
+
+/*
+Home Page
+*/
+.header_btn_group{margin: 0 auto; text-align: center; padding: 30px 0px;}
+.h_bnr_pix_height_adj{margin: 30px 0px 20px 0px; width:98%;}
+.bnr_txt_group{margin: 0 auto; display: block; text-align: center;}
+.bgGrdOne{min-height:1150px;}
+.h-bnr-sNote-1 { margin-top:30px;}
+.overlap_bx_a,.overlap_bx_b{ margin-top:0px; margin-right:0px; float:none; margin:0 auto; min-width:98%;}
+.video_one{width:98%;}
+.vid_round_01,.vid_round_02,.vid_round_03{display:none;}
+.direction{margin: 0 auto; display: block; padding-left: 0px;}
+.vid4business{width:98%;}
+.studyDesk {margin-right:50px;}
+.points4Business > ul {display: inline-block; left:20px;}
+.ftr-bx-01{margin-left:0px;}
+.ftr-bx-02{margin-bottom:20px;}
+.h-bnr-h1-a{ font-size:52px;}
+.h-bnr-h1-b{ font-size:42px;}
+
+/*
+About Page
+*/
+.abt-bnr-pix-height-adj{margin-top: 30px;}
+.abt-bnr-h1-a{font-size:52px;}
+.abt-bnr-h1-b{font-size:42px;}
+.abt-getStartedBtn{margin: 0 auto; display: block; margin-bottom: 30px; max-width: 290px; width:100%;}
+.abt-study-img_adj{ padding-top:20px; margin:0 auto; display:block; width:98%; max-width: 400px;}
+.abtDiscThree,.abtDiscFour,.abtDiscFive{ text-align:center;}
+
+/*
+Student And Collages Page
+*/
+
+.sclClg_bnr_pix_height_adj{ margin:0 auto; margin-top: 30px; display:block; width: 98%; max-width: 460px;}
+.sclClg-bnr_txt_group{text-align: center; margin: 20px 0px;}
+.sclClgSecOne {margin-top: 30px; text-align:justify;}
+.sclClgSecOne p {margin-top: 20px;}
+.sclClgBtnSet button{ margin:0 auto; width:98%; max-width:350px;}
+.sclClgSecTwo{margin: 40px 0px 20px;}
+.sclClgBenifitBtn{display:block; margin:0 auto;}
+.sclClgSecTwo p{text-align:justify!important;}
+.sclClgSecTwo h1{ font-size:26px;}
+.sclClgSecOne h2{ font-size:26px;}
+.sclClg-bnr-h-a{ font-size:42px;}
+.sclClg-bnr-h-b{ font-size:32px;}
+.sclClg-bnr-h-c{font-size:22px;}
+.mobInterface { margin-top: 20px; width: 98%; max-width: 470px; margin: 0 auto; display: block;}
+.sclClgSecThree{padding:0px; margin-top: 30px;}
+.sclClgSecThree h2 {font-size: 26px; text-align:left;}
+.analyticPic{ margin:0 auto; display:block; width:98%; max-width:349px; margin-top: 30px;}
+.sclClg-getStartedBtn{float:none; margin: 0 auto; display: block; margin-top:20px;}
+.mobileUiPic{display:block; margin:0 auto; max-width: 432px; width: 98%;}
+.sclClgSecFive h2{text-align:left;}
+.sclClgSecThree{margin: 30px 0px;}
+.winnerCupPic{margin: 0 auto; display: block; margin-bottom: 30px;}
+.sclClgSecSeven h2{text-align:left; font-size:32px;}
+.sclClgSecFour h2{ font-size:32px;}
+.sclClgSecFive h2{font-size:32px;}
+.sclClgSecSix h2{font-size:32px;}
+.ftr-social-iconSet i{padding:15px;}
+.sclClgSecEight h2{font-size:32px;}
+
+/*
+News Page
+*/
+
+.news_bnr_pix_height_adj{margin-top: 40px;}
+.news-bnr_txt_group{ margin:0 auto; text-align:center;}
+.news-bnr-h-a{ font-size:36px; margin:30px 0px;}
+
+/*
+News All Page
+*/
+.news-all-bnr-h-a{ font-size:42px;}
+.news-all-bnr-h-b{ font-size:32px;}
+
+
+
+/*
+Students Page
+*/
+
+.students-bnr_txt_group{margin: 0 auto; display: block; text-align: center;}
+.students-bnr-h-a{ font-size:52px;}
+.students-bnr-h-b{ font-size:42px;}
+.students_bnr_pix_height_adj{width: 98%; max-width:480px;  display: block; margin: 0 auto; margin-top: 30px;}
+.studentsSecOne {margin-top: 30px;}
+.studentsSecOne h2{font-size:30px;}
+.studentsSecTwo h1{font-size:30px;}
+.studentsGetStartedBtn{max-width:290px; margin: 0 auto;}
+.onlineProfile{margin:0 auto; display:block; width:98%; max-width:284px; margin-top:30px;}
+.studentsBtnSet{margin: 30px 0px;}
+.studentVideo{margin-top:0px;}
+.studentsSecThree h2{font-size:30px; text-align:left;}
+.studentsSecFour h2{font-size:30px;}
+.workExperience{max-width: 484px; width:98%;  margin:0 auto; display: block; margin-bottom: 30px;}
+.studentsSecFive h2{ font-size:30px; text-align:left;}
+.upToDate{ display:block; width:98%; max-width:382px; margin:0 auto; margin-top:30px;}
+
+
+
+/*
+Business Page
+*/
+
+.business_bnr_pix_height_adj{margin:0 auto; display:block; width:98%; max-width:348px; margin-top:30px;}
+.business-bnr_txt_group{margin:0 auto; display:block; text-align:center;}
+.business-bnr-h-a{ font-size:52px;}
+.business-bnr-h-b{ font-size:42px;}
+.business-bnr-h-c{ font-size:;}
+.businessSecOne h2{font-size:32px;}
+.businessGetStartedBtn{ max-width:320px; width:98%;}
+.businessSecTwo h1{font-size:32px;}
+.peopleGrowth{ margin:0 auto; display:block; width:98%; max-width:289px; margin-bottom:30px;}
+.vacencyPeople{ margin:0 auto; display:block; width:98%; max-width:440px; margin-top:30px;}
+.businessSecThree h2{text-align:left; font-size:32px;}
+.business-getStartedBtn{margin: 0 auto; display: block; margin-top: 30px;}
+.painterMan{ display:block; margin:0 auto; width:98%; max-width:378px; margin-bottom: 30px;}
+.peoplearroundBulb{display:block; margin:0 auto; width:98%;  margin-top:30px; max-width:323px;}
+.businessSecFive h2{text-align:left; font-size:32px;}
+.businessSecFour h2{ font-size:32px;}
+.moniterZoom{margin: 0 auto; display: block; width: 98%; max-width: 375px; margin-bottom: 30px;}
+.joinHand{margin: 0 auto; display: block; width: 98%; max-width:437px;}
+.businessSecSeven h2{text-align:left;}
+#carousel h2{ font-size:32px;}
+.businessSecTwo { margin: 30px 0px;}
+.businessSecOne {margin-top: 30px;}
+.businessBtnSet {margin: 30px 0px;}
+.businessSecFour {padding:0px;}
+
+
+
+/*
+Employee Dashboard
+*/
+.empDashboardTitle{ width:100%;}
+.empDashboardLocationBox{width:100%;}
+.empDashboardPendingApplication{width:100%;}
+
+
+.mediabox .emleft{margin: 0px auto;}
+.mediabox .emright{ text-align:left; float:none; margin-right:0px; margin-top:15px;}
+.empDbH{ font-size:20px; text-align:center;}
+
+.empDbTitle{width:90.9%; text-align:center;}
+.empDbDateStrip{width:90.9%; text-align:center; margin-left:15px; margin-top:15px;}
+
+.rejectApplicationBtn{ margin-top:15px;}
+}
+
+/* --------------------------------------------------------------------------------
+For Col-SM ----------- Portrait and Landscape-----------[ 768x991 ]
+--------------------------------------------------------------------------------*/
+@media only screen and (min-width:768px) and (max-width:991px){
+
+/*
+GLOBAL CHANGE IN ALL PAGE
+*/
+.pull-right{ float:none !important;} /* WORKS FOR ALL PAGE BANNER IMAGE TO NULL FLOAT VALUE*/
+.logo{margin:0 auto; display:block; margin-top:10px;}
+.commanPStyle{ text-align:left !important;}
+
+/*
+
+/*
+Home Page
+*/
+.header_btn_group{margin: 0 auto; text-align: center; padding: 30px 0px;}
+.h_bnr_pix_height_adj{margin: 10px 50px; width:98%; max-width:596px;}
+.bnr_txt_group{margin: 0 auto; display: block; text-align: center;}
+.bgGrdOne{min-height:1150px;}
+.h-bnr-sNote-1 { margin-top:30px;}
+.overlap_bx_a,.overlap_bx_b{ margin-top:0px; margin-right:0px; float:none; margin:0 auto; min-width:98%;}
+.video_one{width:98%;}
+.vid_round_01,.vid_round_02,.vid_round_03{display:none;}
+.direction{margin: 0 auto; display: block; padding-left: 0px;}
+.vid4business{width:98%;}
+.studyDesk {margin-right:50px;}
+.points4Business > ul {display: inline-block; left:20px;}
+.ftr-bx-01{margin-left:0px;}
+.ftr-bx-02{margin-bottom:20px;}
+.h-bnr-h1-a{ font-size:52px;}
+.h-bnr-h1-b{ font-size:42px;}
+
+
+/*
+About Page
+*/
+.abt-bnr-pix-height-adj{margin-top: 30px;}
+.abt-bnr-h1-a{font-size:52px;}
+.abt-bnr-h1-b{font-size:42px;}
+.abt-getStartedBtn{margin: 0 auto; display: block; margin-bottom: 30px; max-width: 290px; width:100%;}
+.abt-study-img_adj{ padding-top:20px; margin:0 auto; display:block; width:98%; max-width: 400px;}
+.abtDiscThree,.abtDiscFour,.abtDiscFive{ text-align:center;}
+
+
+
+/*
+Student And Collages Page
+*/
+
+.sclClg_bnr_pix_height_adj{ margin:10px 150px;  width: 98%; max-width: 460px;}
+.sclClg-bnr_txt_group{text-align: center; margin: 20px 0px;}
+.sclClgSecOne {margin-top: 30px; text-align:justify;}
+.sclClgSecOne p {margin-top: 20px;}
+.sclClgBtnSet button{ margin:0 auto; width:98%; max-width:350px;}
+.sclClgSecTwo{margin: 40px 0px 20px;}
+.sclClgBenifitBtn{display:block; margin:0 auto;}
+.sclClgSecTwo p{text-align:justify!important;}
+.sclClgSecTwo h1{ font-size:26px;}
+.sclClgSecOne h2{ font-size:26px;}
+.sclClg-bnr-h-a{ font-size:42px;}
+.sclClg-bnr-h-b{ font-size:32px;}
+.sclClg-bnr-h-c{font-size:22px;}
+.mobInterface { margin-top: 20px; width: 98%; max-width: 470px; margin: 0 auto; display: block;}
+.sclClgSecThree{padding:0px; margin-top: 30px;}
+.sclClgSecThree h2 {font-size: 26px; text-align:left;}
+.analyticPic{ margin:0 auto; display:block; width:98%; max-width:349px; margin-top: 30px;}
+.sclClg-getStartedBtn{float:none; margin: 0 auto; display: block; margin-top:20px;}
+.mobileUiPic{display:block; margin:0 auto; max-width: 432px; width: 98%;}
+.sclClgSecFive h2{text-align:left;}
+.sclClgSecThree{margin: 30px 0px;}
+.winnerCupPic{margin: 0 auto; display: block; margin-bottom: 30px;}
+.sclClgSecSeven h2{text-align:left; font-size:32px;}
+.sclClgSecFour h2{ font-size:32px;}
+.sclClgSecFive h2{font-size:32px;}
+.sclClgSecSix h2{font-size:32px;}
+.ftr-social-iconSet i{padding:15px;}
+.sclClgSecEight h2{font-size:32px;}
+
+/*
+News Page
+*/
+
+.news_bnr_pix_height_adj{margin-top: 40px;}
+.news-bnr_txt_group{ margin:0 auto; text-align:center;}
+.news-bnr-h-a{ font-size:36px; margin:30px 0px;}
+
+/*
+News All Page
+*/
+.news-all-bnr-h-a{ font-size:42px;}
+.news-all-bnr-h-b{ font-size:32px;}
+
+
+
+/*
+Students Page
+*/
+
+.students-bnr_txt_group{margin: 0 auto; display: block; text-align: center;}
+.students-bnr-h-a{ font-size:52px;}
+.students-bnr-h-b{ font-size:42px;}
+.students_bnr_pix_height_adj{width: 98%; max-width:480px;  margin:10px 100px;}
+.studentsSecOne {margin-top: 30px;}
+.studentsSecTwo {margin: 30px 10px;}
+.studentsSecOne h2{font-size:30px;}
+.studentsSecTwo h1{font-size:30px;}
+.studentsGetStartedBtn{max-width:290px; margin: 0 auto;}
+.onlineProfile{margin:0 auto; display:block; width:98%; max-width:284px; margin-top:30px;}
+.studentsBtnSet{margin: 30px 0px;}
+.studentVideo{margin-top:0px;}
+.studentsSecThree h2{font-size:30px; text-align:left;}
+.studentsSecFour h2{font-size:30px;}
+.workExperience{max-width: 484px; width:98%;  margin:0 auto; display: block; margin-bottom: 30px;}
+.studentsSecFive h2{ font-size:30px; text-align:left;}
+.upToDate{ display:block; width:98%; max-width:382px; margin:0 auto; margin-top:30px;}
+
+
+
+/*
+Business Page
+*/
+
+.business_bnr_pix_height_adj{margin:0 auto; width:98%; max-width:348px; margin:10px 200px;}
+.business-bnr_txt_group{margin:0 auto; display:block; text-align:center;}
+.business-bnr-h-a{ font-size:52px;}
+.business-bnr-h-b{ font-size:42px;}
+.business-bnr-h-c{ font-size:;}
+.businessSecOne h2{font-size:32px;}
+.businessGetStartedBtn{ max-width:320px; width:98%;}
+.businessSecTwo h1{font-size:32px;}
+.peopleGrowth{ margin:0 auto; display:block; width:98%; max-width:289px; margin-bottom:30px;}
+.vacencyPeople{ margin:0 auto; display:block; width:98%; max-width:440px; margin-top:30px;}
+.businessSecThree h2{text-align:left; font-size:32px;}
+.business-getStartedBtn{margin: 0 auto; display: block; margin-top: 30px;}
+.painterMan{ display:block; margin:0 auto; width:98%; max-width:378px; margin-bottom: 30px;}
+.peoplearroundBulb{display:block; margin:0 auto; width:98%;  margin-top:30px; max-width:323px;}
+.businessSecFive h2{text-align:left; font-size:32px;}
+.businessSecFour h2{ font-size:32px;}
+.moniterZoom{margin: 0 auto; display: block; width: 98%; max-width: 375px; margin-bottom: 30px;}
+.joinHand{margin: 0 auto; display: block; width: 98%; max-width:437px;}
+.businessSecSeven h2{text-align:left;}
+#carousel h2{ font-size:32px;}
+.businessSecTwo { margin: 30px 0px;}
+.businessSecOne {margin-top: 30px;}
+.businessBtnSet {margin:30px 0 30px 25%}
+.businessSecFour {padding:0px;}
+
+
+/*
+Employee Dashboard
+*/
+.empDashboardTitle{ width:100%;}
+.empDashboardLocationBox{width:100%;}
+.empDashboardPendingApplication{width:100%;}
+
+.mediabox .emleft{margin: 0px auto;}
+.mediabox .emright{ text-align:left; float:none; margin-right:0px; margin-top:15px;}
+.empDbH{ font-size:20px; text-align:center;}
+
+.rejectApplicationBtn{ margin-top:15px;}
+
+}
+
+

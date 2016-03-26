@@ -1,0 +1,11 @@
+[04-Nov-2015 09:25:14 UTC] PHP Notice:  Undefined variable: school_logo in /home/vibedevelopment/public_html/workstarter/admin/adminheader.php on line 84
+[04-Nov-2015 09:28:40 UTC] PHP Notice:  Undefined variable: school_logo in /home/vibedevelopment/public_html/workstarter/admin/adminheader.php on line 84
+[04-Nov-2015 09:28:44 UTC] PHP Notice:  Undefined variable: school_logo in /home/vibedevelopment/public_html/workstarter/admin/adminheader.php on line 84
+[04-Nov-2015 09:28:46 UTC] PHP Notice:  Undefined variable: school_logo in /home/vibedevelopment/public_html/workstarter/admin/adminheader.php on line 84
+[05-Nov-2015 07:27:51 UTC] PHP Notice:  Undefined variable: school_logo in /home/vibedevelopment/public_html/workstarter/admin/adminheader.php on line 84
+[20-Nov-2015 09:33:25 UTC] PHP Warning:  session_start(): open(/tmp/sess_878n1frmh7sgg3oerv9g0ura30, O_RDWR) failed: Disk quota exceeded (122) in /home/vibedevelopment/public_html/workstarter/admin/adminheader.php on line 3
+[20-Nov-2015 09:33:25 UTC] PHP Notice:  Undefined variable: school_logo in /home/vibedevelopment/public_html/workstarter/admin/adminheader.php on line 84
+[20-Nov-2015 09:33:25 UTC] PHP Notice:  Undefined index: adminuserid in /home/vibedevelopment/public_html/workstarter/admin/admindashboard.php on line 3
+[20-Nov-2015 09:33:35 UTC] PHP Warning:  session_start(): open(/tmp/sess_878n1frmh7sgg3oerv9g0ura30, O_RDWR) failed: Disk quota exceeded (122) in /home/vibedevelopment/public_html/workstarter/admin/adminheader.php on line 3
+[20-Nov-2015 09:33:35 UTC] PHP Notice:  Undefined variable: school_logo in /home/vibedevelopment/public_html/workstarter/admin/adminheader.php on line 84
+[20-Nov-2015 09:33:35 UTC] PHP Notice:  Undefined index: adminuserid in /home/vibedevelopment/public_html/workstarter/admin/admindashboard.php on line 3

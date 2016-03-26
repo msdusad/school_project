@@ -1,0 +1,47 @@
+/*
+Media Queries Coding
+*/
+
+
+
+@media (min-width: 1000px) {
+	.nav-tabs > li > a:hover{border-color:#fff #fff #d6e1e5}
+	.nav-tabs.nav-justified > .active > a,.nav-tabs.nav-justified > .active > a:hover,.nav-tabs.nav-justified > .active > a:focus{border-bottom-color:transparent}
+	.nav-tabs.nav-justified > li > a:hover{border-color:#fff #fff #d6e1e5}
+	.nav-stroke.nav-justified{border-bottom:2px solid #d6e1e5}
+	.nav-stroke.nav-justified > .active > a,.nav-stroke.nav-justified > .active > a:hover,.nav-stroke.nav-justified > .active > a:focus{border-bottom-color:#fff}
+	.nav-stroke.nav-justified > li > a{margin-bottom:-2px;border-bottom:0}
+	.nav-stroke.nav-justified > li > a:hover{border-color:transparent}
+    .dropdown-menu {right: 0; left: auto;  }
+	.dropdown-menu > .top.arrow {right: 13px;  }
+	.jumbotron {padding: 70px 30px;}
+	.jumbotron h1,  .jumbotron .h1 {font-size: 60px; margin-bottom: 25px;  }
+	.jumbotron p {font-size: 24px;}
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+  .btn-group-justified .btn-group-dropdown .dropdown-toggle {padding-left: 5px; padding-right: 5px;}
+  .list-group-item [class^="ss-"] {font-size: 24px;}
+  .list-group-item > .pull-left {padding: 0 0 0 5px;}
+  .list-group-item .media-body {padding: 5px 0 5px 50px;}
+  .btn-group-justified.btn-group .btn [class^="ss-"] {margin: 0;}
+}
+
+@media screen and (max-width: 768px) {
+  .input-required span { width: 14px; height: 35px; top: -12px; }
+  .input-required span:after { right: -37px; }
+  .input-required span:before { font-size: 12.8px; content: "*"; top: 14px; right: 2px;  }
+  .mq_margin_01{margin-bottom:15px;}
+  #empRegistrationForm h1{font-size: 18px!important;}
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a { padding-top: 28px; padding-bottom: 28px;}
+  .navbar-nav.navbar-icons > li > a { padding: 27px 10px;}
+  .navbar-nav .dropdown-menu > .top.arrow { display: block;}
+  .navbar-icons > li > a > [class^="ss-"] { font-size: 16px; margin: 0;}
+  .navbar-text { margin-top: 26px; margin-bottom: 26px;}
+  .navbar-nav > li > a {padding-top: 28px; padding-bottom: 28px;}
+  .navigationContainer{margin-left:0; text-align:center;}
+}

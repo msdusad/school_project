@@ -1,0 +1,26 @@
+/*
+MOBILE NAVIGATION
+*/
+
+    nav {
+       display: block; 
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+    }
+    nav li {
+      display: inline-block;
+    }
+    nav a {
+      display: inline-block;
+    }
+    nav select {
+      display: none;
+    }
+    /*
+	Display Nav UL on Tablet and Mobile ( XL And SM )
+	*/
+    @media (max-width: 767px) {
+      nav ul     { display: none; }
+      nav select { display: inline-block; width:90%; height:50px; border:1px solid #89BE26;}
